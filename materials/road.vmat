@@ -1,0 +1,34 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_standard.vfx"
+
+	//---- Specular ----
+	F_HIGH_QUALITY_GLOSS 1
+	F_SPECULAR 1
+	F_SPECULAR_CUBE_MAP 1 // In-game Cube Map
+	F_SPECULAR_CUBE_MAP_PROJECTION 1
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/road007_4k_color_jpg_73bcd70b.generated.png"
+
+	//---- Cube Map ----
+	g_flCubeMapBlur "0.000"
+	g_flCubeMapBrightness "3.017"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.229"
+	g_flDirectionalLightmapStrength "1.000"
+	g_flMetalness "0.000"
+	g_vReflectanceRange "[0.000 1.000]"
+	TextureGlossiness "[0.810000 0.810000 0.810000 0.000000]"
+	TextureReflectance "[0.092000 0.092000 0.092000 0.000000]"
+
+	//---- Normal Map ----
+	TextureNormal "materials/road007_4k_normaldx_jpg_ca85e7eb.generated.png"
+}
